@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="64905" started-at="2019-11-24T18:00:37Z" finished-at="2019-11-24T18:01:42Z">
+    <groups>
+      <group name="UI">
+        <method signature="HomepageTest.CheckBoxTest()[pri:0, instance:tests.HomepageTest@ae45eb6]" name="CheckBoxTest" class="tests.HomepageTest"/>
+        <method signature="HomepageTest.WindowHandleTest()[pri:0, instance:tests.HomepageTest@ae45eb6]" name="WindowHandleTest" class="tests.HomepageTest"/>
+      </group> <!-- UI -->
+      <group name="NON GUI">
+        <method signature="HomepageTest.GoldTest()[pri:1, instance:tests.HomepageTest@ae45eb6]" name="GoldTest" class="tests.HomepageTest"/>
+        <method signature="HomepageTest.PinkTest()[pri:0, instance:tests.HomepageTest@ae45eb6]" name="PinkTest" class="tests.HomepageTest"/>
+      </group> <!-- NON GUI -->
+    </groups>
+    <test name="CriticalCases" duration-ms="64905" started-at="2019-11-24T18:00:37Z" finished-at="2019-11-24T18:01:42Z">
+      <class name="tests.HomepageTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.HomepageTest@ae45eb6]" name="beforeTest" is-config="true" duration-ms="28530" started-at="2019-11-24T18:00:37Z" finished-at="2019-11-24T18:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="CheckBoxTest()[pri:0, instance:tests.HomepageTest@ae45eb6]" name="CheckBoxTest" duration-ms="11860" started-at="2019-11-24T18:01:06Z" finished-at="2019-11-24T18:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBoxTest -->
+        <test-method status="PASS" signature="PinkTest()[pri:0, instance:tests.HomepageTest@ae45eb6]" name="PinkTest" duration-ms="2" started-at="2019-11-24T18:01:18Z" finished-at="2019-11-24T18:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PinkTest -->
+        <test-method status="PASS" signature="WindowHandleTest()[pri:0, instance:tests.HomepageTest@ae45eb6]" name="WindowHandleTest" duration-ms="20303" started-at="2019-11-24T18:01:18Z" finished-at="2019-11-24T18:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowHandleTest -->
+        <test-method status="PASS" signature="GoldTest()[pri:1, instance:tests.HomepageTest@ae45eb6]" name="GoldTest" duration-ms="5" started-at="2019-11-24T18:01:38Z" finished-at="2019-11-24T18:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoldTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.HomepageTest@ae45eb6]" name="afterTest" is-config="true" duration-ms="4087" started-at="2019-11-24T18:01:38Z" finished-at="2019-11-24T18:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.HomepageTest -->
+    </test> <!-- CriticalCases -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuite">
+	<test name="CriticalCases">
+		<classes>
+			<class name="tests.HomepageTest" />
+		</classes>
+	</test>
+</suite>

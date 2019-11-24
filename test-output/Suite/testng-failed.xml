@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Practice Grouping(failed)">
+    <groups>
+      <run>
+        <include name="UI"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.HomepageTest">
+        <methods>
+          <include name="CheckBoxTest"/>
+          <include name="WindowHandleTest"/>
+        </methods>
+      </class> <!-- tests.HomepageTest -->
+    </classes>
+  </test> <!-- Practice Grouping(failed) -->
+</suite> <!-- Failed suite [Suite] -->
